@@ -1,0 +1,28 @@
+input {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+body{
+    background-color: #4c4747;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  
+  }
+  
+
+  
+  input[type="text"] {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+
+  }
+  
